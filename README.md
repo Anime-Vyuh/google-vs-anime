@@ -8,7 +8,7 @@
 
 ### Example to convert  Voice into Japanese
 
-```
+```py
 from gtts import gTTS
 
 dialog = "Baka"
@@ -19,7 +19,7 @@ voice.save('{}.mp3'.format(dialog))
 ```
 ### Play Characters Dialouge Using Pygame
 
-```
+```py
 pygame.mixer.init()
 pygame.mixer.music.load('song path')
 pygame.mixer.music.play(loops=1)
